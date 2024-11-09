@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.ibb.co/0FTRddW/password-entry.png" alt="Logo" class="logo">
+        <h1>Password Generator</h1>
+        <input type="number" id="length" placeholder="Password Length" min="6">
+        <button onclick="generatePassword()">Generate Password</button>
+        <p id="result" class="result"></p>
+        <button onclick="copyToClipboard()" class="copy-button">Copy to Clipboard</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
